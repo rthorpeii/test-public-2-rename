@@ -1,5 +1,59 @@
 # test-public-2
 
+A simple CLI application.
+
+## Installation
+
+To install the CLI tool, run:
+
+```bash
+pip install -e .
+```
+
+Or use it directly without installation:
+
+```bash
+python cli.py [command]
+```
+
+## Usage
+
+The CLI provides several commands:
+
+### Hello Command
+Greet someone or the world:
+```bash
+test-cli hello          # Prints "Hello, World!"
+test-cli hello Alice    # Prints "Hello, Alice!"
+```
+
+### Version Command
+Show version information:
+```bash
+test-cli version
+```
+
+### Info Command
+Show information about the CLI:
+```bash
+test-cli info
+```
+
+### Help
+Show all available commands:
+```bash
+test-cli --help
+```
+
+## Direct Usage (without installation)
+
+You can also run the CLI directly:
+```bash
+python cli.py hello
+python cli.py version
+python cli.py info
+```
+
 More stuff.
 
 
